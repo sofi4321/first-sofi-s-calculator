@@ -6,18 +6,18 @@ let answer = document.getElementById("answer");
 function CalculateAnswer() {
 	if (sign.value === "+") {
 		answer.innerText =
-			parseInt(inputTextOne.value) + parseInt(inputTextTwo.value);
+			parseFloat(inputTextOne.value) + parseFloat(inputTextTwo.value);
 	}
 	if (sign.value === "-") {
 		answer.innerText =
-			parseInt(inputTextOne.value) - parseInt(inputTextTwo.value);
+			parseFloat(inputTextOne.value) - parseFloat(inputTextTwo.value);
 	}
 	if (sign.value === "*") {
 		answer.innerText =
-			parseInt(inputTextOne.value) * parseInt(inputTextTwo.value);
+			parseFloat(inputTextOne.value) * parseFloat(inputTextTwo.value);
 	}
 	if (sign.value === "/") {
 		answer.innerText =
-			parseInt(inputTextOne.value) / parseInt(inputTextTwo.value);
+			parseFloat(inputTextOne.value) / parseFloat(inputTextTwo.value);
 	}
 }
