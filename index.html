@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>sofi's calculator</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body id="body">
+		<div id="body-container">
+			<h1 id="first-heading">calculator</h1>
+			<input type="text" id="input-text-one" />
+			<select name="sign" id="sign">
+				<option>+</option>
+				<option>-</option>
+				<option>*</option>
+				<option>/</option>
+			</select>
+			<input type="text" id="input-text-two" />
+			<br />
+			<button id="calculate" onclick="CalculateAnswer()">calculate</button>
+			<button id="reset" onclick="window.location.reload()">reset</button>
+			<br />
+			<div id="answer"></div>
+		</div>
+		<script src="./app.js"></script>
+	</body>
+</html>
+
+<!--
+
+    Naming variables :
+    camel case : camelCase = we use this for variable names in javascript
+    pascal case : PascalCase = we use this for function and class definition
+    snake case : snake_case = we use this as an alternative for variable naming
+    hyphenated : this-is-hypen-separated = we use this for id and class naming
+
+
+ -->

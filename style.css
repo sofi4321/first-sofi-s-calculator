@@ -1,0 +1,86 @@
+#body-container {
+	width: 250px;
+	height: 250px;
+
+	border: black 5px solid;
+	background-color: rgb(81, 163, 136);
+	border-radius: 25px;
+	text-align: center;
+}
+#first-heading{
+	font: 2em sans-serif;
+}
+#input-text-one {
+	width: 50px;
+
+	border: 2px solid black;
+	border-radius: 10px;
+}
+#input-text-one:hover {
+	box-shadow: 0 0 5px black;
+}
+#input-text-two {
+	width: 50px;
+
+	border: 2px solid black;
+	border-radius: 10px;
+}
+#input-text-two:hover {
+	box-shadow: 0 0 5px black;
+}
+#sign {
+	border: 2px solid black;
+	border-radius: 10px;
+}
+#sign:hover {
+	box-shadow: 0 0 5px black;
+	cursor: pointer;
+}
+#calculate {
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+
+	border: 0px;
+	background-color: blue;
+	border-radius: 8px;
+	color: aquamarine;
+
+	font-size: 23px;
+}
+#calculate:hover {
+	box-shadow: 0 0 5px black;
+	color: rgb(99, 201, 167);
+}
+#reset {
+	width: 100px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 10px;
+
+	border: 0px;
+	background-color: red;
+	border-radius: 8px;
+	color: aquamarine;
+
+	font-size: 23px;
+}
+#reset:hover {
+	box-shadow: 0 0 5px black;
+	color: rgb(99, 201, 167);
+}
+#answer {
+	width: 140px;
+	height: 20px;
+
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: white;
+
+	position: relative;
+	left: 55px;
+	margin-top: 10px;
+}
+#body {
+	background-color: aquamarine;
+}
